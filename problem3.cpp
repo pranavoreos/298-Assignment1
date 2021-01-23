@@ -15,7 +15,7 @@ int main(){
     pay = hours * 16;
   }
   else{
-    pay = hours * 16 * 1.5;
+    pay = ((hours-40) * 16 * 1.5)+(40*16);
   }
   double ssTax = pay * 0.06;
   double fiTax = pay * 0.14;
